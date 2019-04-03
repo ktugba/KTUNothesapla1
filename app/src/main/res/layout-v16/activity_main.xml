@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/sinif_ort"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="@string/SinifOrt" />
+
+            <EditText
+                android:id="@+id/sinif_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+             />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/standart_sapma"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="@string/StandartSapma" />
+
+            <EditText
+                android:id="@+id/standart_sapma_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/vize_notu"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/VizeNotu" />
+
+        <EditText
+            android:id="@+id/vize_notu_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/final_but"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="@string/FinaBut" />
+
+            <EditText
+                android:id="@+id/final_but_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
+    </RelativeLayout>
+    
+    
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+       <android.support.v7.widget.LinearLayoutCompat
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <Button
+               android:id="@+id/ters_hesapla"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/TersHesapla" />
+
+           <Button
+               android:id="@+id/hesapla"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/Hesapla"
+
+               />
+           
+           <TextView
+               android:id="@+id/sonuc"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+              />
+
+       </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

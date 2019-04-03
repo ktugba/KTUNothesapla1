@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KTU Not hesapla1</string>
+    <string name="SinifOrt">Sınıf ort :</string>
+    <string name="StandartSapma">Standart sapma :</string>
+    <string name="VizeNotu">Vize notu :</string>
+    <string name="FinaBut">Final/Büt : </string>
+    <string name="TersHesapla">Tersten Hesapla</string>
+    <string name="Hesapla">Hesapla</string>
+</resources>
